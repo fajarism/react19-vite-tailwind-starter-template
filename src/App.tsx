@@ -1,5 +1,6 @@
 import './App.css'
 
+import Page from 'src/pages'
 import reactLogo from 'src/assets/react.svg'
 import viteLogo from '/vite.svg'
 import { useState, version } from 'react'
@@ -29,6 +30,8 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+
+      <Page />
     </>
   )
 }
